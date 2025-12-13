@@ -1,0 +1,23 @@
+{
+  "name": "@sequentialos/input-sanitization",
+  "version": "1.0.0",
+  "description": "Input sanitization and rate limiting utilities",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-input-sanitization"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express-rate-limit": "^8.2.1"
+  }
+}
